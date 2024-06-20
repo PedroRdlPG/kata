@@ -24,5 +24,5 @@ test('Given "1" When sum Then 1', () => {
     //THEN
     const expectedOutput = 1;
     expect(actualOutput).toBe(expectedOutput);
-    
+
 });
