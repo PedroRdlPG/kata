@@ -13,6 +13,20 @@ test('Given "" When sum Then 0', () => {
     expect(actualOutput).toBe(expectedOutput);
 });
 
+test('Given "1,2" When sum Then 3', () => {
+    // GIVEN
+    const calculator = new StringCalculator();
+    const input = "1,2";
+
+    // WHEN
+    const actualOutput = calculator.sum(input);
+
+    //THEN
+    const expectedOutput = 3;
+    expect(actualOutput).toBe(expectedOutput);
+});
+
+
 test('Given "1" When sum Then 1', () => {
     // GIVEN
     const calculator = new StringCalculator();
