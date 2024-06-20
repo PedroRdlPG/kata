@@ -3,7 +3,10 @@ let StringCalculator = class {
         if (list == "") {
             return 0;
         }
-        return 0;
+
+        let nums = list.split(",")
+        return parseInt(nums[0]) + parseInt(nums[1])
+       
     }
 }
 
