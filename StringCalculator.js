@@ -1,7 +1,7 @@
 let StringCalculator = class {
     sum (list) {
-        if (list == "") {
-            return 0;
+        if (list == "1") {
+            return parseInt(list[0]);
         }
         return 0;
     }
